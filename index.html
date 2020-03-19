@@ -9,28 +9,28 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <script src="js/jquery-3.2.1.slim.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/hamburger-menu.js"></script>
 <script src="https://kit.fontawesome.com/d8dc498074.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <header class="header-section bg-success">
 	<h1 class="text-white ml-3 pt-3">Bonoful</h1>
-	<nav class="navbar navbar-expand-lg navbar-light bg-danger mt-3">
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+	<nav class="navigation-menu bg-danger mt-4">
+	  <a class="navigation-menu-button" id="toggle-navigation-menu" href="#">
 		<i class="fas fa-bars text-white"></i>
-	  </button>
-	  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-		<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-		  <li class="nav-item">
-			<a class="nav-link text-white" href="index.html">Home</a>
+	  </a>
+		<ul class="navigation-list" id="navigation-list">
+		  <li class="navigation-list-item ml-2" id="navigation-list-item-one">
+			<a class="navigation-list-link text-white" href="index.html">Home</a>
 		  </li>
-		  <li class="nav-item">
-			<a class="nav-link text-white" href="gallery.html">Menu</a>
+		  <li class="navigation-list-item ml-2" id="navigation-list-item-two">
+			<a class="navigation-list-link text-white" href="gallery.html">Menu</a>
 		  </li>
-		  <li class="nav-item">
-			<a class="nav-link text-white" href="pricing.html">Pricing</a>
+		  <li class="navigation-list-item ml-2" id="navigation-list-item-three">
+			<a class="navigation-list-link text-white" href="pricing.html">Pricing</a>
 		  </li>
-		  <li class="nav-item">
-			<a class="nav-link text-white" href="contact.html">Contact</a>
+		  <li class="navigation-list-item ml-2" id="navigation-list-item-four">
+			<a class="navigation-list-link text-white" href="contact.html">Contact</a>
 		  </li>
 		</ul>
 	  </div>

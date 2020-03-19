@@ -11,6 +11,40 @@ a {
 	min-height: 130px;
 }
 
+.navigation-menu {
+	min-height: 42px;
+}
+
+.navigation-menu-button {
+	display: none;
+}
+
+.navigation-list {
+	display: inline;
+	list-style-type: none;
+	padding-left: 1em;
+	vertical-align: sub;
+}
+
+.navigation-list-item {
+	display: inline;
+}
+
+.hamburger-menu-list {
+	display: block !important;
+	padding-left: 0.5em;
+    padding-bottom: 1em;
+}
+
+.hamburger-menu-list-item {
+	display: block !important;
+	padding-top: 0.5em;
+}
+
+.navigation-list-link:hover {
+	text-decoration: none;
+}
+
 .main-section {
 	width: 100%;
 	min-height: 400px;
@@ -102,6 +136,20 @@ a {
 	
 	.textual-content {
 		width: 100%;
+	}
+	
+	.navigation-menu-button {
+		display: inline-block;
+		margin-left: 1em;
+		margin-top: 0.5em;
+	}
+	
+	.navigation-list {
+		display: none;
+	}
+
+	.navigation-list-item {
+		display: none;
 	}
 }
 
